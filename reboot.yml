@@ -3,4 +3,4 @@
   
   tasks:
 - name: Unconditionally reboot the machine with all defaults
-  reboot:
+  command: reboot 
