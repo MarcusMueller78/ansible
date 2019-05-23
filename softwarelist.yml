@@ -1,0 +1,11 @@
+- hosts: localhost
+  become: true
+  tasks:
+  - name: Install neofetch 
+    apt: name=neofetch
+
+  - name: Install mc
+    apt: name=mc
+    
+  - name: Install tmux
+    apt: name=tmux
