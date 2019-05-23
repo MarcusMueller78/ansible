@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
+- hosts: all
   environment:
     LC_ALL: C
     LANG: C
