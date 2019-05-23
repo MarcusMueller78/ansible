@@ -1,0 +1,5 @@
+- hosts: localhost
+  become: true
+  tasks:
+  - name: write test 
+    command : date >> /tmp/test.txt 
