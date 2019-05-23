@@ -2,4 +2,4 @@
   become: true
   tasks:
   - name: write test 
-    command : /bin/date >> /tmp/test.txt 
+    command: /bin/date>>/tmp/test.txt
