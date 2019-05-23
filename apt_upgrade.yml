@@ -1,8 +1,4 @@
 ---
-- hosts: 
-  environment:
-    LC_ALL: C
-    LANG: C
 
   tasks:
 
