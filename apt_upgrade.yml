@@ -1,5 +1,10 @@
 ---
-
+- hosts: localhost
+	- hosts: all
+	  environment:
+	    LC_ALL: C
+	    LANG: C
+      
   tasks:
 
   - name: Update APT package cache
